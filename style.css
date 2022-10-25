@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.todo-list {
+    padding: 1rem;
+    height: 100vh;
+}
+
+.todo-header {
+    margin-bottom: 1.52rem;
+}
+
+.todo-header > h1 {
+    letter-spacing: .5rem;
+    font-size: 2.5rem;
+}
+
+.todo-create {
+    margin: 1.25rem 0;
+    padding: 1.25rem;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+}
+
+.todo-create > .todo-checkbox {
+    padding: .75rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+    cursor: pointer;
+    margin-right: 1.25rem;
+}
+
+.todo-main {
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    background-color: grey;
+}
+
+.todo-main > .todo-task {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;   
+    border-bottom: 1px solid white;
+}
+
+.todo-main > .todo-task:nth-child(1) {
+    text-decoration: line-through;
+    font-weight: 200;
+}
+
+.todo-task > .todo-checkbox {
+    padding: .75rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.todo-filter {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 6px;
+    background-color: grey;
+    margin-bottom: 1rem;
+}
+
+.todo-filter > h3 {
+    margin-right: 1rem;
+}
+
+.todo-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.todo-footer > h3 {
+    color: rgb(94, 91, 91);
+}
